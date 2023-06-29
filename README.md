@@ -22,7 +22,11 @@ https://github.com/pyannote/pyannote-audio
 Pydub github link :<p>
 https://github.com/jiaaro/pydub
 
-Recommend to use python anaconda to create development environment.<p>
-Then install whisper openai ,after installing this library run a simple test to check if everything works correctly.<p>
-Then install pyannote library and also run a simple test.<p>
-You can use the test files under the "test" directory.<p>
+Recommend to use python anaconda to create development environment.
+Then install whisper openai ,after installing this library run a simple test to check if everything works correctly.
+Then install pyannote library and also run a simple test.
+You can use the test files under the "test" directory.
+
+For optimal output quality, the default whisper model is "large-v2". However, if you want a faster download and testing process, you can switch to the "tiny" or "base" models. Alternatively, you can download the model files beforehand and store them in the local folder.<p>
+The Whisper models are stored in ~/.cache/whisper. The Whisper.cpp models are stored in ~/Library/Caches/Buzz (Mac OS), ~/.cache/Buzz (Unix), or C:\Users\<username>\AppData\Local\Buzz\Buzz\Cache (Windows). The Hugging Face models are stored in ~/.cache/huggingface/hub.
+
