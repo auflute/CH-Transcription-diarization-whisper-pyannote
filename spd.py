@@ -10,7 +10,7 @@ import os
 
 
 pipeline = Pipeline.from_pretrained(
-    "pyannote/speaker-diarization", use_auth_token="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")
+    "pyannote/speaker-diarization", use_auth_token="")
 
 
 #def read(k):
