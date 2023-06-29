@@ -28,5 +28,5 @@ Then install pyannote library and also run a simple test.
 You can use the test files under the "test" directory.
 
 For optimal output quality, the default whisper model is "large-v2". However, if you want a faster download and testing process, you can switch to the "tiny" or "base" models. Alternatively, you can download the model files beforehand and store them in the local folder.<p>
-The Whisper models are stored in ~/.cache/whisper. The Whisper.cpp models are stored in ~/Library/Caches/Buzz (Mac OS), ~/.cache/Buzz (Unix), or C:\Users\<username>\AppData\Local\Buzz\Buzz\Cache (Windows). The Hugging Face models are stored in ~/.cache/huggingface/hub.
+The Whisper models are stored in ~/.cache/whisper. (The Whisper.cpp models are stored in ~/Library/Caches/Buzz (Mac OS), ~/.cache/Buzz (Unix), or C:\Users\<username>\AppData\Local\Buzz\Buzz\Cache (Windows). The Hugging Face models are stored in ~/.cache/huggingface/hub. The Whisper.cpp and Hugging Face models are not used in this repo.)
 
