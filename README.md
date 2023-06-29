@@ -1,4 +1,4 @@
-# CH-Transcription-diarization-whisper-pyannote
+# Description
 修复原作者的代码的一些bug，同时支持对中文语音的多角色识别和语音转文本<p>
 Transcription and diarization (speaker identification). Fix bugs from the original repo and support language detection.
 
